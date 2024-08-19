@@ -1,0 +1,19 @@
+uuid: ab16c22f-7a6f-4838-9df1-c8b9a439825e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.icon_tabs
+    - field.storage.block_content.field_component_title
+id: block_content.icon_tabs.field_component_title
+field_name: field_component_title
+entity_type: block_content
+bundle: icon_tabs
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

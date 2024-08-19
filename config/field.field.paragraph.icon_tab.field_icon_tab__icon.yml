@@ -1,0 +1,29 @@
+uuid: 37b9f890-378d-4902-9bbb-579ea662eb9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_tab__icon
+    - media.type.icon
+    - paragraphs.paragraphs_type.icon_tab
+id: paragraph.icon_tab.field_icon_tab__icon
+field_name: field_icon_tab__icon
+entity_type: paragraph
+bundle: icon_tab
+label: 'Tab Icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      icon: icon
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

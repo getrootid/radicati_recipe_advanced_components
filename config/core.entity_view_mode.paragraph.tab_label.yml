@@ -1,0 +1,11 @@
+uuid: 575c5bf0-c61e-49e9-a146-b00dd0ebb30e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.tab_label
+label: 'Tab label'
+description: 'Meant to be used as the label of a tabbed component. The part the user selects to activate this tab.'
+targetEntityType: paragraph
+cache: true

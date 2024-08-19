@@ -1,0 +1,8 @@
+uuid: f13e28e5-0650-499e-b344-e94aa258b5df
+langcode: en
+status: true
+dependencies: {  }
+id: icon_tabs
+label: 'Icon Tabs'
+revision: false
+description: 'An advanced and accessible icon tabs component which allows editors to add content that is accessed by the user via a set of tabs that allow icons on them. '

@@ -1,0 +1,43 @@
+uuid: c7ae5e40-f433-436c-bcb4-d522019316dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.icon_tabs
+    - field.storage.block_content.field_icon_tabs__tabs
+    - paragraphs.paragraphs_type.icon_tab
+  module:
+    - entity_reference_revisions
+id: block_content.icon_tabs.field_icon_tabs__tabs
+field_name: field_icon_tabs__tabs
+entity_type: block_content
+bundle: icon_tabs
+label: Tabs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      icon_tab: icon_tab
+    negate: 0
+    target_bundles_drag_drop:
+      card_collection_item:
+        weight: 6
+        enabled: false
+      icon_tab:
+        weight: 7
+        enabled: true
+      logo_grid_item:
+        weight: 8
+        enabled: false
+      media_item:
+        weight: 9
+        enabled: false
+      statistic_item:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

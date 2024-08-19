@@ -1,0 +1,11 @@
+uuid: 141552e8-cbda-495a-b48e-fe1fcb24095a
+langcode: en
+status: true
+dependencies: {  }
+id: icon_tabs
+block_id: 'inline_block:icon_tabs'
+category: components
+label: 'Icon Tabs'
+image_path: ''
+image_alt: ''
+weight: -100

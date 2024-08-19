@@ -1,0 +1,22 @@
+uuid: 87e02326-c482-4372-a5af-8c77cb469086
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_tab__content
+    - paragraphs.paragraphs_type.icon_tab
+  module:
+    - text
+id: paragraph.icon_tab.field_icon_tab__content
+field_name: field_icon_tab__content
+entity_type: paragraph
+bundle: icon_tab
+label: 'Tab Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

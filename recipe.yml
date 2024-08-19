@@ -1,0 +1,32 @@
+name: 'Radicati Advanced Components'
+description: 'Adds more complex components to the Radicati base install. Does not include other recipes so it can be added after initial site setup.'
+type: 'Admin'
+install:
+  - link
+  - path
+  - field
+  - field_ui
+  - pathauto
+  - paragraphs
+  - manage_display
+  - layout_builder
+  - layout_builder_browser
+  - block_content_template
+  - entity_browser
+  - entity_reference_display
+  - inline_block_title_automatic
+  - inline_entity_form
+  - layout_builder_operation_link
+  - layout_builder_restrictions
+  - slick
+  - slick_entityreference
+  - slick_ui
+  - taxonomy
+  - radicati_base
+  - text_field_formatter
+  - viewsreference
+  - webform
+  - fontawesome
+  - fontawesome_menu_icons
+  - radicati_components
+  - radicati_layouts

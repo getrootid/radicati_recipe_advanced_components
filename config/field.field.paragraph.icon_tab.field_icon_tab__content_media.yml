@@ -1,0 +1,31 @@
+uuid: 73495a2f-62d6-42b6-94d3-9fa142cb5e7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_tab__content_media
+    - media.type.image
+    - media.type.remote_video
+    - paragraphs.paragraphs_type.icon_tab
+id: paragraph.icon_tab.field_icon_tab__content_media
+field_name: field_icon_tab__content_media
+entity_type: paragraph
+bundle: icon_tab
+label: 'Tab Media'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

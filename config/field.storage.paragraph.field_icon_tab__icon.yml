@@ -1,0 +1,20 @@
+uuid: e5a8edc5-c54b-452e-8fc8-a5835ec6362c
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+id: paragraph.field_icon_tab__icon
+field_name: field_icon_tab__icon
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

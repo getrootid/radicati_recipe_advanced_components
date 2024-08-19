@@ -1,0 +1,47 @@
+uuid: 7f266a42-608d-446b-b524-bffbd1b78100
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.tab_label
+    - field.field.paragraph.icon_tab.field_icon_tab__content
+    - field.field.paragraph.icon_tab.field_icon_tab__content_button
+    - field.field.paragraph.icon_tab.field_icon_tab__content_media
+    - field.field.paragraph.icon_tab.field_icon_tab__content_title
+    - field.field.paragraph.icon_tab.field_icon_tab__icon
+    - field.field.paragraph.icon_tab.field_icon_tab__label
+    - paragraphs.paragraphs_type.icon_tab
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: paragraph.icon_tab.tab_label
+targetEntityType: paragraph
+bundle: icon_tab
+mode: tab_label
+content:
+  field_icon_tab__icon:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: scaled_25_width
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_icon_tab__label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_icon_tab__content: true
+  field_icon_tab__content_button: true
+  field_icon_tab__content_media: true
+  field_icon_tab__content_title: true
+  search_api_excerpt: true

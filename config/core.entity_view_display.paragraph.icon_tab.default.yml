@@ -1,0 +1,62 @@
+uuid: dcdb00a4-38c5-4f48-9abd-d3442f65b257
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icon_tab.field_icon_tab__content
+    - field.field.paragraph.icon_tab.field_icon_tab__content_button
+    - field.field.paragraph.icon_tab.field_icon_tab__content_media
+    - field.field.paragraph.icon_tab.field_icon_tab__content_title
+    - field.field.paragraph.icon_tab.field_icon_tab__icon
+    - field.field.paragraph.icon_tab.field_icon_tab__label
+    - paragraphs.paragraphs_type.icon_tab
+  module:
+    - link
+    - manage_display
+    - text
+id: paragraph.icon_tab.default
+targetEntityType: paragraph
+bundle: icon_tab
+mode: default
+content:
+  field_icon_tab__content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_icon_tab__content_button:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_icon_tab__content_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: 1_1_half_width
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_icon_tab__content_title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h3
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_icon_tab__icon: true
+  field_icon_tab__label: true
+  search_api_excerpt: true

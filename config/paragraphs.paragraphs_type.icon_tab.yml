@@ -1,0 +1,10 @@
+uuid: 1cf1efb9-6065-4fe5-be22-72aea2d2b385
+langcode: en
+status: true
+dependencies: {  }
+id: icon_tab
+label: 'Icon Tab'
+icon_uuid: null
+icon_default: null
+description: 'An individual icon tab meant to be used in the icon tabs component.'
+behavior_plugins: {  }

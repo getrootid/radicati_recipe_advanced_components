@@ -1,0 +1,23 @@
+uuid: f97af9d3-3e0b-46ef-ba37-7cdb2ca4ebe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_tab__content_button
+    - paragraphs.paragraphs_type.icon_tab
+  module:
+    - link
+id: paragraph.icon_tab.field_icon_tab__content_button
+field_name: field_icon_tab__content_button
+entity_type: paragraph
+bundle: icon_tab
+label: Button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link
