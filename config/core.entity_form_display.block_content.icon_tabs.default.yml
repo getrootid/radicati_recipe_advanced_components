@@ -8,7 +8,6 @@ dependencies:
     - field.field.block_content.icon_tabs.field_component_title
     - field.field.block_content.icon_tabs.field_icon_tabs__tabs
     - field.field.block_content.icon_tabs.field_setting_alignment
-    - field.field.block_content.icon_tabs.field_setting_background
   module:
     - inline_entity_form
     - radicati_base
@@ -54,12 +53,6 @@ content:
   field_setting_alignment:
     type: taxonomy_icon_widget
     weight: 3
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_setting_background:
-    type: taxonomy_icon_widget
-    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
